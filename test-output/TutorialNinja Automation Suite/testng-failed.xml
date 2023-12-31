@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [TutorialNinja Automation Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="TutorialNinja Tests(failed)">
+    <classes>
+      <class name="com.tutorialninjaqa.testcases.Search">
+        <methods>
+          <include name="veryfySearchWithInValidProduct"/>
+          <include name="teardown"/>
+          <include name="verifyWithOutAnyProduct"/>
+          <include name="setup"/>
+        </methods>
+      </class> <!-- com.tutorialninjaqa.testcases.Search -->
+    </classes>
+  </test> <!-- TutorialNinja Tests(failed) -->
+</suite> <!-- Failed suite [TutorialNinja Automation Suite] -->
